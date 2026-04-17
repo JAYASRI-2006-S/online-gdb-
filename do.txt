@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int n=sc.nextInt(),i=0,s=0;
+	    do{
+	        s+=i;
+	        i++;
+	    }while(i<=n);
+	    System.out.println(s);
+	    }
+}
